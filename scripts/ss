@@ -1,0 +1,15 @@
+   <li>
+               <div class="collapsible-header grey lighten-4">${report.organization}</div>
+                <div class="collapsible-body white">${report.location}</div>
+                <div class="collapsible-body white">${report.contact}</div>
+                <div class="collapsible-body white">${report.sys_app}</div>
+                <div class="collapsible-body white">${report.datedetected}</div>
+            </li>
+
+
+
+            organization: createReport['OrgName'].value,
+        location: createReport['location'].value,
+        contact: createReport['contact'].value,
+        sys_app: createReport['sys_app'].value,
+        datedetected: createReport['datedetcted'].value,
